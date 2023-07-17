@@ -19,7 +19,7 @@
   >
     <main class="flex justify-center items-center min-h-screen">
       <div
-        class="rounded-lg w-[350px] h-auto bg-white flex flex-col gap-6 justify-center items-center"
+        class="rounded-lg w-[350px] h-auto bg-white flex flex-col gap-6 justify-center items-center shadow-2xl shadow-gray-400"
       >
         <img
           class="rounded-t-lg w-full"
@@ -27,8 +27,10 @@
           alt="A woman enjoying music"
         />
 
-        <h1 class="text-[22px] md:text-3xl font-bold">Order Summary</h1>
-        <div class="text-center px-6 md:px-10">
+        <h1 class="text-[22px] md:text-3xl font-bold text-gray-700">
+          Order Summary
+        </h1>
+        <div class="text-center px-6 md:px-10 text-gray-500">
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </div>
@@ -37,18 +39,18 @@
         >
           <img src="./images/icon-music.svg" alt="An music icon" />
           <div>
-            <p>Annual Plan</p>
-            <p>$59.99/year</p>
+            <p class="font-bold">Annual Plan</p>
+            <p class="text-gray-500">$59.99/year</p>
           </div>
           <a
             href="#"
-            class="text-blue-800 decoration-inherit hover:no-underline underline"
+            class="text-blue-800 decoration-inherit hover:no-underline underline font-semibold"
             >Change</a
           >
         </div>
         <button
           type="button"
-          class="bg-blue-800 rounded-lg py-2 px-16 font-semibold text-white text-sm cursor-pointer mt-2"
+          class="bg-blue-800 rounded-lg py-2 px-16 font-semibold text-white text-sm cursor-pointer mt-2 shadow-lg shadow-blue-50"
         >
           Proceed to Payment
         </button>
